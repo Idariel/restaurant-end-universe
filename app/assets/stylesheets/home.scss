@@ -1,0 +1,67 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightblue;
+  background-image: image-url("ciel-clair.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: #000099;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 3.5em;
+}
+h2{
+  color: #000099;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2em;
+}
+.logo{
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20%;
+}
+#containerTabs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.tab{
+  background-color: #FFFFFF;
+  border: solid 2px #000099;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+h3{
+  color: #000099;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+h4{
+  color: #000099;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+.title{
+margin-top: 50px;
+}
+.pTxt{
+  color: #000099;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 1em;
+  padding: 0px 30px;
+}
