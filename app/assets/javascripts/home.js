@@ -2,8 +2,8 @@
 //= require jquery_ujs
 //= require_tree .
 
-// window.addEventListener('DOMContentLoaded', function(){
-//   "use strict";
+window.addEventListener('DOMContentLoaded', function(){
+  "use strict";
 
   // Hide toutes les divs n'appartenant pas à la landing page
   $("#presentation").hide();
@@ -30,4 +30,4 @@
   });
 
 
-// });
+});
