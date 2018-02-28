@@ -65,3 +65,62 @@ margin-top: 50px;
   font-size: 1em;
   padding: 0px 30px;
 }
+
+// CSS carrousel
+html, body{
+  background-color: lightblue;
+}
+#carrousel{
+  border: solid #000099 5px;
+  width: 275px;
+  height: 240px;
+  margin: 0 auto;
+  position: relative;
+}
+.slide{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 264px;
+  height: 218px;
+}
+.title{
+  position: absolute;
+  padding-left: 10px;
+  width: 265px; /* 275 - 10 px */
+  height: 35px;
+  line-height: 35px;
+  bottom: 0;
+  left: 0;
+  background-image: image-url("opague.png") top left repeat;
+}
+.navigation{
+  position:absolute;
+  top: 218px;
+  right: 105px;
+}
+.navigation span{
+  background-color: #000099;
+  color: #FFFFFF;
+  padding: 2px 4px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.navigation span:hover,.navigation span:active{
+  background-color: #FFFFFF;
+  color: #000099;
+}
+#next{
+  position:absolute;
+  top: 213px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+}
+#previous{
+  position:absolute;
+  top: 213px;
+  left: 5px;
+  width: 25px;
+  height: 25px;
+}
